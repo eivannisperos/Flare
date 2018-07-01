@@ -1,0 +1,129 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/countdownFragment"
+    android:background="#FFFFFF"
+    android:clickable="true"
+    tools:context="junchi.flare.CountdownFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:textSize="72dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:id="@+id/countDownTimer"/>
+
+    </LinearLayout>
+
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Request Phone Permission"-->
+        <!--android:id="@+id/requestPermissionsButton"-->
+        <!--android:layout_below="@+id/linearLayout"-->
+        <!--android:layout_alignRight="@+id/linearLayout"-->
+        <!--android:layout_alignEnd="@+id/linearLayout"-->
+        <!--android:layout_marginTop="120dp"-->
+        <!--android:onClick="onClick" />-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/f1"
+            android:padding="30dp"
+            android:background="#ff352e"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/f2"
+            android:padding="30dp"
+            android:background="#00c000"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/f3"
+            android:padding="30dp"
+            android:background="#243fff"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/f4"
+            android:padding="30dp"
+            android:background="#ffeb00"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/h1"
+            android:padding="30dp"
+            android:background="#d2d3d1"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/h2"
+            android:padding="30dp"
+            android:background="#d2d3d1"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/h3"
+            android:padding="30dp"
+            android:background="#d2d3d1"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/h4"
+            android:padding="30dp"
+            android:background="#d2d3d1"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

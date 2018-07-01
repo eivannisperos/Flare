@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="CALL AND TEXT SETTINGS">
+
+        <EditTextPreference
+            android:capitalize="words"
+            android:inputType="number"
+            android:key="example_phone_caution"
+            android:maxLines="1"
+            android:defaultValue="@string/pref_phone_caution"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Enter the phone number you wish the button to dial"
+            android:title="@string/pref_title_display_name" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="enable_text2"
+            android:title="@string/pref_title_text2" />
+
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory-->
+        <!--android:title="SYSTEM SETTINGS">-->
+
+        <!--<SwitchPreference-->
+            <!--android:defaultValue="true"-->
+            <!--android:key="enable_sounds"-->
+            <!--android:title="@string/pref_title_sound" />-->
+
+        <!--<SwitchPreference-->
+            <!--android:defaultValue="true"-->
+            <!--android:key="enable_flash2"-->
+            <!--android:title="@string/pref_title_flash" />-->
+
+    <!--</PreferenceCategory>-->
+
+</PreferenceScreen>

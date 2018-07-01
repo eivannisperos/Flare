@@ -1,0 +1,22 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header
+        android:fragment="junchi.flare.SettingsActivity$BasicPreferenceFragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/pref_header_basic" />
+
+    <header
+        android:fragment="junchi.flare.SettingsActivity$CautionPreferenceFragment"
+        android:icon="@drawable/ic_priority_high_black_24dp"
+        android:title="@string/pref_header_caution" />
+
+    <header
+        android:fragment="junchi.flare.SettingsActivity$EmergencyPreferenceFragment"
+        android:icon="@drawable/ic_warning_black_24dp"
+        android:title="@string/pref_header_emergency" />
+
+    <header
+        android:fragment="junchi.flare.SettingsActivity$LockScreen"
+        android:title="Lock Screen Settings"/>
+
+</preference-headers>

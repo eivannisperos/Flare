@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="LOCK SCREEN">
+
+        <Preference
+            android:title="Set Lock Pattern"
+            android:key="@string/lockScreenSettings"
+            android:summary="Set lock screen pattern to diffuse countdown."/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

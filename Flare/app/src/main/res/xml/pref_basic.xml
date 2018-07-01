@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="TEXT SETTINGS"
+        >
+        <EditTextPreference
+            android:capitalize="words"
+            android:inputType="number"
+            android:key="example_phone_basic"
+            android:maxLines="1"
+            android:defaultValue="@string/pref_phone_basic"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Enter the phone number you wish the button to dial"
+            android:title="@string/pref_title_display_name" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="enable_text"
+            android:title="@string/pref_title_text" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
+
